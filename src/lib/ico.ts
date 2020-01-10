@@ -226,6 +226,10 @@ const generateICO = async (
   writePNGs(pngs, stream)
   stream.end()
 
+  await new Promise((resolve) => {
+    stream.on('close', () => resolve())
+  })
+
   logger.log('  Create: ' + dest)
   return dest
 }

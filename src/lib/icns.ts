@@ -251,6 +251,10 @@ const createIcon = async (
   stream.write(body, 'binary')
   stream.end()
 
+  await new Promise((resolve) => {
+    stream.on('close', () => resolve())
+  })
+
   return true
 }
 

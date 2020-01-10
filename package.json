@@ -1,7 +1,7 @@
 {
-  "name": "icon-gen",
+  "name": "@gizeta/icon-gen",
   "description": "Generate an icon files from the SVG or PNG files",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "akabeko (http://akabeko.me/)",
   "license": "MIT",
   "homepage": "https://github.com/akabekobeko/npm-icon-gen#readme",
@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akabekobeko/npm-icon-gen.git"
+    "url": "git+https://github.com/Gizeta/npm-icon-gen.git"
   },
   "bugs": {
-    "url": "https://github.com/akabekobeko/npm-icon-gen/issues"
+    "url": "https://github.com/Gizeta/npm-icon-gen/issues"
   },
   "scripts": {
     "test": "jest",
